@@ -35,7 +35,7 @@ const Candy = (props) => {
       <form onSubmit={addCandyhandler}>
         <input
           placeholder="Candy Name"
-          class="text-1xl shadow border p-1 rounded"
+          className="text-1xl shadow border p-1 rounded"
           type="text"
           name="name"
           value={newCandy.name}
@@ -43,7 +43,7 @@ const Candy = (props) => {
         />
         <input
           placeholder="Description"
-          class="text-1xl shadow border p-1 rounded"
+          className="text-1xl shadow border p-1 rounded"
           type="text"
           name="description"
           value={newCandy.description}
@@ -51,13 +51,13 @@ const Candy = (props) => {
         />
         <input
           placeholder="Price"
-          class="text-1xl shadow border p-1 rounded"
+          className="text-1xl shadow border p-1 rounded"
           type="number"
           name="price"
           value={newCandy.price}
           onChange={inputChangeHandler}
         />
-        <button class="btn bg-red-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded">
+        <button className="btn bg-red-500 hover:bg-blue-700 text-white font-bold py-1 px-3 rounded">
           Add Candy
         </button>
       </form>
